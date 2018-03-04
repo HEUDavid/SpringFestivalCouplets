@@ -6,4 +6,6 @@
 [具体过程可以看这里。](https://mdavid.cn/%E5%85%B3%E4%BA%8E%E6%96%B0%E5%B9%B4%E6%98%A5%E8%81%94%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/)
 
 # 效果截图
-![]()
+![](https://github.com/HEUDavid/SpringFestivalCouplets/raw/master/screenshot/index.png)
+![](https://github.com/HEUDavid/SpringFestivalCouplets/raw/master/screenshot/home.png)
+![](https://github.com/HEUDavid/SpringFestivalCouplets/raw/master/screenshot/true.png)
