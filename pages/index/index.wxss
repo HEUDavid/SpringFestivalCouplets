@@ -1,0 +1,167 @@
+.container-box {
+  /* background-color: #ce1125; */
+  height: 100vh;
+}
+
+.bg {
+  margin: auto;
+  z-index: -99;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-box {
+  text-align: center;
+  padding-top: 175rpx;
+  padding-bottom: 55rpx;
+}
+
+.img-box image {
+  width: 686rpx;
+  height: 686rpx;
+}
+
+.Grid {
+  display: flex;
+}
+
+.Grid-cell {
+  flex: 1;
+}
+
+.cell-u-form1 {
+  flex: 0 0 65%;
+}
+
+.cell-u-form2 {
+  flex: 0 0 30%;
+}
+
+.cell-u-form3 {
+  flex: 0 0 5%;
+}
+
+.input-row {
+  font-size: 42rpx;
+  display: flex;
+  height: 83rpx;
+  line-height: 83rpx;
+  margin-left: 50rpx;
+}
+
+.input-row text {
+  font-weight: bold;
+  color: gold;
+  height: 83rpx;
+  line-height: 83rpx;
+}
+
+.phcolor {
+  height: 83rpx;
+  line-height: 83rpx;
+  font-weight: bold;
+  color: #fff;
+}
+
+.input-row input {
+  color: #111;
+  height: 83rpx;
+  line-height: 83rpx;
+  font-weight: bold;
+  /* margin-left: 3px; */
+  width: 300rpx;
+  border-bottom: 1px solid #e8c478;
+}
+
+.two-buttons {
+  padding: 20rpx;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  font-size: 40rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  width: 190rpx;
+  border-radius: 50rpx;
+}
+
+.make {
+  color: #e8c478;
+  border: 1px solid #e8c478;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.select {
+  color: #fff;
+  background-color: #e8c478;
+}
+
+.bottomMenu {
+  height: 90rpx;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  position: fixed;
+}
+
+.gotoHome {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  padding-left: 30rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.cell-u-15 {
+  flex: 0 0 15%;
+  border-right: 4rpx solid rgba(0, 0, 0, 0.4);
+}
+
+.link {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-weight: bold;
+  font-size: large;
+  color: gold;
+  margin: 0 auto;
+}
+
+.cell-u-85 {
+  flex: 0 0 85%;
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.mask1 {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  bottom: 110rpx;
+  left: 0;
+  z-index: 3;
+  width: 520rpx;
+  height: 340rpx;
+  /* opacity: 0; */
+}
+
+.canvas-box {
+  position: fixed;
+  top: 999999rpx;
+  left: 0;
+}

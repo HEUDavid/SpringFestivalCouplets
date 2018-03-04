@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "新年春联",
+    "navigationBarTextStyle": "#fff",
+    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#b82c24"
+  }
+}

@@ -1,0 +1,45 @@
+<view class="container">
+
+  <image src='/images/bg5.jpg' mode='' class='bg'></image>
+  <view class='header'></view>
+  <view class="list-item" catchtap='gotoIndex'>
+
+    <view class="center">
+      <view class='title'>新年春联</view>
+      <view class='desc'>一键生成你的新年春联</view>
+    </view>
+    <view>
+      <image src="/images/card.jpg" class="cover"></image>
+    </view>
+
+  </view>
+
+  <!-- <view class="list-item card2" catchtap='gotoMiniProgram'> -->
+  <view class="list-item" catchtap='test'>
+
+    <view class="center">
+      <view class='title'>新年祝福</view>
+      <view class='desc'>给亲戚朋友送上新年的祝福</view>
+    </view>
+    <view>
+      <image src="/images/card.jpg" class="cover"></image>
+    </view>
+
+  </view>
+
+  <view class='wechat'>
+    <image src='/images/wechat.png'></image>
+    <button class="share-button" open-type='contact'></button>
+  </view>
+
+  <view class="shareMore">
+    <image src='../../images/shareMore.png'></image>
+    <text>推荐给朋友</text>
+    <button class="share-button" open-type="share"></button>
+  </view>
+
+  <view class='help' catchtap='gotoMiniProgram'>
+    <image src='/images/help.png'></image>
+  </view>
+
+</view>

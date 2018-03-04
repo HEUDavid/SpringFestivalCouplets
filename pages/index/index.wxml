@@ -1,0 +1,55 @@
+<view class="container-box">
+
+  <image src='/images/bg5.jpg' mode='' class='bg'></image>
+
+  <view class="img-box">
+    <image bindtap="previewImg" mode="scaleToFill" src="{{imagePath}}"></image>
+  </view>
+
+  <form bindsubmit="formSubmit">
+    <view class='Grid'>
+      <view class="Grid-cell cell-u-form1">
+        <view class="input-row">
+          <text>横批：</text>
+          <input name="HengPi" type="text" maxlength="5" placeholder="喜迎新春" placeholder-class="phcolor" value='{{DuiLian[0+i][0]}}'></input>
+        </view>
+        <view class="input-row">
+          <text>上联：</text>
+          <input name='ShangLian' type="text" maxlength="7" placeholder="喜滋滋迎新年" placeholder-class="phcolor" value='{{DuiLian[0+i][1]}}'></input>
+        </view>
+        <view class="input-row">
+          <text>下联：</text>
+          <input placeholder-class="phcolor" name='XiaLian' type="text" maxlength="7" placeholder="笑盈盈辞旧岁" value='{{DuiLian[0+i][2]}}'></input>
+        </view>
+      </view>
+      <view class="Grid-cell cell-u-form2">
+        <view class='two-buttons'>
+          <button class="btn select" catchtap='selectDuiLian'>随机挑</button>
+          <text>\n</text>
+          <button formType="submit" class="btn make">生成</button>
+        </view>
+      </view>
+      <view class='Grid-cell cell-u-form3'></view>
+    </view>
+  </form>
+
+  <view class='Grid bottomMenu'>
+    <view class='Grid-cell cell-u-15'>
+      <navigator url='/pages/home/home' open-type='redirect'>
+        <image src='/images/bk.png' class='gotoHome'></image>
+      </navigator>
+    </view>
+    <view class='Grid-cell cell-u-85' class='link' catchtap='gotoMiniProgram'>
+      <!-- <view class='Grid-cell cell-u-85' class='link' catchtap=''> -->
+      没有才华怎么办？
+    </view>
+  </view>
+
+</view>
+
+<view style='display:{{maskHidden}};' class="mask"></view>
+<view style='display:{{fuckTencent}};' class="mask1"></view>
+
+<view class="canvas-box">
+  <canvas style="width: 686px;height: 686px;" canvas-id="mycanvas" />
+</view>

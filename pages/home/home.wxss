@@ -1,0 +1,149 @@
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg {
+  margin: auto;
+  z-index: -99;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 120rpx;
+}
+
+.list-item {
+  position: relative;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  margin-top: 65rpx;
+}
+
+.list-item  image.cover {
+  width: 100%;
+  height: 450rpx;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 4rpx 8rpx 16rpx rgba(0, 0, 0, 0.2);
+}
+
+.center {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 340rpx;
+  height: 150rpx;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+  width: 140rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 0 auto;
+  border-bottom: 3rpx solid #fff;
+}
+
+.desc {
+  font-size: 26rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+
+.shareMore {
+  bottom: 30rpx;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: 0 auto;
+  height: 90rpx;
+  width: 265rpx;
+  background-color: #e8c478;
+  border-radius: 300rpx;
+  display: flex;
+}
+
+.shareMore image {
+  margin-left: 35rpx;
+  padding-top: 21rpx;
+  padding-bottom: 19rpx;
+  vertical-align: middle;
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.shareMore text {
+  color: #fff !important;
+  font-size: 28rpx;
+  font-weight: normal;
+  margin-left: 0;
+  padding-top: 21rpx;
+  padding-bottom: 19rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  vertical-align: middle;
+}
+
+.share-button {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.wechat {
+  bottom: 30rpx;
+  left: 40rpx;
+  position: absolute;
+  margin: 0 auto;
+  height: 90rpx;
+  width: 100rpx;
+  border: 3rpx solid #e8c478;
+  border-radius: 90rpx;
+  display: flex;
+}
+
+.wechat image {
+  margin-left: 25rpx;
+  padding-top: 21rpx;
+  padding-bottom: 19rpx;
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.help {
+  bottom: 30rpx;
+  right: 40rpx;
+  position: absolute;
+  margin: 0 auto;
+  height: 90rpx;
+  width: 100rpx;
+  border: 3rpx solid #e8c478;
+  border-radius: 90rpx;
+  display: flex;
+}
+
+.help image {
+  margin-left: 25rpx;
+  padding-top: 21rpx;
+  padding-bottom: 19rpx;
+  height: 50rpx;
+  width: 50rpx;
+}
