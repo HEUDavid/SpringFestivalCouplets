@@ -6,8 +6,9 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarTitleText": "新年春联",
-    "navigationBarTextStyle": "#fff",
+    "navigationBarTextStyle": "white",
     "navigationStyle": "custom",
     "navigationBarBackgroundColor": "#b82c24"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

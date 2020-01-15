@@ -130,11 +130,12 @@ Page({
   //将横批绘制到canvas
   setHengPi: function (context) {
     var HengPi = this.data.HengPi;
-
+    context.font = 'normal bold 20px 楷体'
     context.setFontSize(this.data.HengPiSize);
     context.setFillStyle("#000000");
     context.setTextAlign('center');
     context.fillText(HengPi, 343, 103);
+    
     context.stroke();
   },
 
